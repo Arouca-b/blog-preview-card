@@ -7,7 +7,7 @@
 }
 
 body{
-  font-family: 'Figtree', sans-serif;;
+  font-family: 'Figtree', sans-serif;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -52,16 +52,16 @@ svg{
   width: 330px;
 }
 
+.text span{
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 5px 12px;
+    background-color: #f4d04e;
+  }
+
 .text p{
   color: hsl(0, 0%, 50%);
-  margin: 20px 0 10px 0;
-}
-
-.text span{
-  font-weight: 800;
-  border-radius: 5px;
-  padding: 5px 12px;
-  background-color: #f4d04e;
+  margin: 20px 0;
 }
 
 #date{
@@ -80,6 +80,8 @@ svg{
 }
 
 h3{
+  font-family:  sans-serif;
+  font-size: 20px;
   font-weight: 800;
 }
 
@@ -92,10 +94,11 @@ a:hover{
 }
 
 .perfil{
-  margin: 20px 0 15px 0;
+  margin: 25px 0;
 }
 
 .perfil p{
+  font-size: 14px;
   color: #000;
   font-weight: 800;
   margin: 7px 0 0 10px;
